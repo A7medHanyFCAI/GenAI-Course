@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💬 Chatbot (React + TypeScript)
 
-# Run and deploy your AI Studio app
+An intelligent, multimodal chatbot powered by **Google Gemini API**, built using **React** and **TypeScript**.  
+This chatbot can **generate text and images**, **analyze uploaded pictures**, and **process documents or files** — all through an elegant web interface.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1y63V7r0-dWoKK_BXa4w_NgIzbLGWD3o3
+## 🚀 Features
 
-## Run Locally
+✅ **Text Generation** – Ask any question and receive contextual, high-quality responses.  
+🖼️ **Image Generation** – Create images based on text prompts.  
+👁️ **Vision Capability** – Upload or attach images and ask questions about their content.  
+📁 **File Understanding** – Attach documents (PDFs, text files, etc.) and ask questions about them.  
+⚡ **Modern UI** – Built with React + TypeScript for performance and maintainability.  
+🔒 **Secure API Integration** – Uses the official Google Gemini API via environment variables.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Installation & Setup
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/gemini-chatbot.git
+cd gemini-chatbot
+```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Add Environment Variables
+```bash
+GEMINI_API_KEY="your_google_gemini_api_key_here"
+```
+### 4️⃣ Run the Development Server
+```bash
+npm run dev
+```
+---
+## 📸 Screenshots
+
+Below are screenshots of the chatbot in action (located in the static/ folder):
+
+<p align="center">
+  <img src="./static/1.png" width="32%" />
+  <img src="./static/2.png" width="32%" />
+  <img src="./static/3.png" width="32%" />
+</p>

@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Multi-Modal Chat",
+  "description": "A sophisticated chatbot application that leverages the Gemini API to provide text generation, image generation, and vision capabilities. Users can engage in text-based conversations, generate images from prompts, and upload files to ask questions about their content.",
+  "requestFramePermissions": []
+}

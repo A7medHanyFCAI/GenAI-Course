@@ -43,7 +43,7 @@ npm run dev
 Below are screenshots of the chatbot in action (located in the static/ folder):
 
 <p align="center">
-  <img src="./static/1.png" width="32%" />
-  <img src="./static/2.png" width="32%" />
-  <img src="./static/3.png" width="32%" />
+  <img src="./static/1.png" height="50%" width="32%" />
+  <img src="./static/2.png" height="50%" width="32%" />
+  <img src="./static/3.png" height="40%" width="32%" />
 </p>
